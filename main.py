@@ -11,12 +11,14 @@ class LinkedinAutomate:
         self.sid = SentimentIntensityAnalyzer()
 
     def monitor_competitors_activity(self, competitor_ids):
+        # Monitor the activity of each competitor
         for competitor_id in competitor_ids:
             new_connections = self.get_new_connections(competitor_id)
             print(f"New Connections for competitor {competitor_id}:")
             print(new_connections)
             print("---")
 
+            # Send connection requests to new connections
             for connection_id in new_connections:
                 connection_request_message = self.generate_connection_request(connection_id)
                 response = self.send_connection_request(connection_id, connection_request_message)
@@ -29,6 +31,7 @@ class LinkedinAutomate:
         data = json.loads(response.text)
 
         new_connections = []
+        # Extract connection IDs from the API response
         for connection in data.get('elements', []):
             connection_id = connection['targetInfo']['entityUrn'].split(":")[-1]
             new_connections.append(connection_id)
@@ -89,3 +92,4 @@ class LinkedinAutomate:
 
 access_token = "I94UiysljveSlniYY_vKjQ"
 LinkedinAutomate(access_token).main_func()
+
