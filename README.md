@@ -37,5 +37,8 @@ nltk.sentiment: For sentiment analysis of the About Us section.
 Make sure to install these packages by following the installation instructions mentioned above.
 
 ## Documentation
+`documentation.txt`
 
 ## Contact and Support
+Gmail--saikiranreddy19565@gmail.com
+linkedin--https://www.linkedin.com/in/sai-kiran-reddy-6ba0101a3
