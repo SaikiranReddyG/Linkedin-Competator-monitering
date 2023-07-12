@@ -22,7 +22,7 @@ mentioned in requirements.txt
 configurartion:
 this project requires linkedin API key to moniter the data of competitor's,  the assumed API key is mentioned as  varable="access_key"
 
-## Project Usage with Examples
+## Project Usage 
 Open the main.py file.
 Update the competitor_ids list with the LinkedIn profile IDs of your competitors.
 if you have a access key or linkedin API key, update it at necessary places
@@ -30,7 +30,9 @@ if you have a access key or linkedin API key, update it at necessary places
 The Linkedin-Competitor-Monitoring system utilizes the following packages:
 
 requests: For making HTTP requests to the LinkedIn API.
+
 json: For handling JSON data.
+
 nltk.sentiment: For sentiment analysis of the About Us section.
 Make sure to install these packages by following the installation instructions mentioned above.
 
