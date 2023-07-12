@@ -40,5 +40,6 @@ Make sure to install these packages by following the installation instructions m
 `documentation.txt`
 
 ## Contact and Support
-Gmail--saikiranreddy19565@gmail.com
-linkedin--https://www.linkedin.com/in/sai-kiran-reddy-6ba0101a3
+Gmail-- saikiranreddy19565@gmail.com
+
+linkedin-- https://www.linkedin.com/in/sai-kiran-reddy-6ba0101a3
